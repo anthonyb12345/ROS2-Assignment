@@ -12,6 +12,7 @@ launch/temperature_monitor_launch.py
 resource/temperature_monitoring_system
 temperature_monitoring_system/__init__.py
 temperature_monitoring_system/alert_node.py
+temperature_monitoring_system/logging_node.py
 temperature_monitoring_system/temp_sensor_node.py
 temperature_monitoring_system/threshold_node.py
 test/test_copyright.py

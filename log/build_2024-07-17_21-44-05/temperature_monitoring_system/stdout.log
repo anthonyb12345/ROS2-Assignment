@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/PKG-INFO
+writing dependency_links to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/dependency_links.txt
+writing entry points to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/entry_points.txt
+writing requirements to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/requires.txt
+writing top-level names to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/top_level.txt
+reading manifest file '../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/SOURCES.txt'
+writing manifest file '../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/SOURCES.txt'
+running build
+running build_py
+copying temperature_monitoring_system/logging_node.py -> /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system
+running install
+running install_lib
+copying /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system/logging_node.py -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system
+byte-compiling /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system/logging_node.py to logging_node.cpython-310.pyc
+running install_data
+copying launch/temperature_monitor_launch.py -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/share/temperature_monitoring_system/launch
+running install_egg_info
+removing '/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system-0.0.0-py3.10.egg-info
+running install_scripts
+Installing alert_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system
+Installing logging_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system
+Installing temp_sensor_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system
+Installing threshold_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system
+writing list of installed files to '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/install.log'
