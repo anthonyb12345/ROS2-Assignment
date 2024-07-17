@@ -1,0 +1,22 @@
+[2.889s] Invoking command in '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system': PYTHONPATH=/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build --no-deps symlink_data --force
+[4.203s] running develop
+[4.210s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.210s]   warnings.warn(
+[4.878s] running egg_info
+[4.879s] writing temperature_monitoring_system.egg-info/PKG-INFO
+[4.881s] writing dependency_links to temperature_monitoring_system.egg-info/dependency_links.txt
+[4.882s] writing entry points to temperature_monitoring_system.egg-info/entry_points.txt
+[4.883s] writing requirements to temperature_monitoring_system.egg-info/requires.txt
+[4.884s] writing top-level names to temperature_monitoring_system.egg-info/top_level.txt
+[4.891s] reading manifest file 'temperature_monitoring_system.egg-info/SOURCES.txt'
+[4.901s] writing manifest file 'temperature_monitoring_system.egg-info/SOURCES.txt'
+[4.908s] running build_ext
+[4.909s] Creating /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature-monitoring-system.egg-link (link to .)
+[4.916s] Installing temp_sensor_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system
+[4.919s] Installing threshold_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system
+[4.921s] 
+[4.922s] Installed /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system
+[4.923s] running symlink_data
+[4.926s] symbolically linking /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/resource/temperature_monitoring_system -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/share/ament_index/resource_index/packages
+[4.927s] symbolically linking /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/package.xml -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/share/temperature_monitoring_system
+[5.044s] Invoked command in '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system' returned '0': PYTHONPATH=/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build --no-deps symlink_data --force

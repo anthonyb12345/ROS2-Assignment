@@ -13,7 +13,7 @@ class TempSensorNode(Node):
 
     def send_temperature(self):
         temp = Float32()
-        temp.data = round(random.uniform(20.0, 30.0), 2)
+        temp.data = round(random.uniform(20.0, 50.0), 2)
         self.temp_publisher.publish(temp)
         self.get_logger().info(f'Publishing temperature: {temp.data}')
 

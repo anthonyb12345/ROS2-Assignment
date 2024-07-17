@@ -12,6 +12,10 @@ resource/temperature_monitoring_system
 temperature_monitoring_system/__init__.py
 temperature_monitoring_system/temp_sensor_node.py
 temperature_monitoring_system/threshold_node.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+temperature_monitoring_system.egg-info/PKG-INFO
+temperature_monitoring_system.egg-info/SOURCES.txt
+temperature_monitoring_system.egg-info/dependency_links.txt
+temperature_monitoring_system.egg-info/entry_points.txt
+temperature_monitoring_system.egg-info/requires.txt
+temperature_monitoring_system.egg-info/top_level.txt
+temperature_monitoring_system.egg-info/zip-safe
