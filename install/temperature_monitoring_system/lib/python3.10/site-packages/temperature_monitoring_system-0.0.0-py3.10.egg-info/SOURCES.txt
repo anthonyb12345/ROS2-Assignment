@@ -11,6 +11,7 @@ setup.py
 resource/temperature_monitoring_system
 temperature_monitoring_system/__init__.py
 temperature_monitoring_system/temp_sensor_node.py
+temperature_monitoring_system/threshold_node.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
