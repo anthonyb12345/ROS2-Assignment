@@ -10,6 +10,7 @@ setup.py
 ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/zip-safe
 resource/temperature_monitoring_system
 temperature_monitoring_system/__init__.py
+temperature_monitoring_system/alert_node.py
 temperature_monitoring_system/temp_sensor_node.py
 temperature_monitoring_system/threshold_node.py
 temperature_monitoring_system.egg-info/PKG-INFO

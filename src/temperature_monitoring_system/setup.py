@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "temp_sensor_node = temperature_monitoring_system.temp_sensor_node:main",
-            "threshold_node = temperature_monitoring_system.threshold_node:main"
+            "threshold_node = temperature_monitoring_system.threshold_node:main",
+            "alert_node = temperature_monitoring_system.alert_node:main"
         ],
     },
 )
