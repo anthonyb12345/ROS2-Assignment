@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.002528] (temperature_monitoring_system) JobQueued: {'identifier': 'temperature_monitoring_system', 'dependencies': OrderedDict()}
+[0.005055] (temperature_monitoring_system) JobStarted: {'identifier': 'temperature_monitoring_system'}
+[0.099016] (-) TimerEvent: {}
+[0.201748] (-) TimerEvent: {}
+[0.303517] (-) TimerEvent: {}
+[0.404987] (-) TimerEvent: {}
+[0.506816] (-) TimerEvent: {}
+[0.607994] (-) TimerEvent: {}
+[0.708886] (-) TimerEvent: {}
+[0.809907] (-) TimerEvent: {}
+[0.911204] (-) TimerEvent: {}
+[1.012245] (-) TimerEvent: {}
+[1.113703] (-) TimerEvent: {}
+[1.214850] (-) TimerEvent: {}
+[1.316238] (-) TimerEvent: {}
+[1.417660] (-) TimerEvent: {}
+[1.520576] (-) TimerEvent: {}
+[1.621659] (-) TimerEvent: {}
+[1.723771] (-) TimerEvent: {}
+[1.825102] (-) TimerEvent: {}
+[1.926053] (-) TimerEvent: {}
+[2.027064] (-) TimerEvent: {}
+[2.128380] (-) TimerEvent: {}
+[2.229798] (-) TimerEvent: {}
+[2.331027] (-) TimerEvent: {}
+[2.432413] (-) TimerEvent: {}
+[2.533311] (-) TimerEvent: {}
+[2.634913] (-) TimerEvent: {}
+[2.736246] (-) TimerEvent: {}
+[2.837220] (-) TimerEvent: {}
+[2.938177] (-) TimerEvent: {}
+[3.039146] (-) TimerEvent: {}
+[3.045486] (temperature_monitoring_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build'], 'cwd': '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'anthony', 'LC_TIME': 'ar_LB.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anthony', 'OLDPWD': '/home/anthony/Desktop/Assignment6/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_LB.UTF-8', 'SYSTEMD_EXEC_PID': '3155', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anthony/Desktop/Assignment6/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anthony', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anthony', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2881,unix/anthony-virtual-machine:/tmp/.ICE-unix/2881', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_LB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5f36e1de_8c02_4321_bfe0_00bf05a85a03', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_LB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1FP8Q2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_LB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_LB.UTF-8', 'LC_IDENTIFICATION': 'ar_LB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages:/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system:/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_LB.UTF-8', 'LC_PAPER': 'ar_LB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.139602] (-) TimerEvent: {}
+[3.241137] (-) TimerEvent: {}
+[3.342506] (-) TimerEvent: {}
+[3.444087] (-) TimerEvent: {}
+[3.545458] (-) TimerEvent: {}
+[3.647011] (-) TimerEvent: {}
+[3.747854] (-) TimerEvent: {}
+[3.849431] (-) TimerEvent: {}
+[3.950804] (-) TimerEvent: {}
+[4.051845] (-) TimerEvent: {}
+[4.156742] (-) TimerEvent: {}
+[4.218654] (temperature_monitoring_system) StdoutLine: {'line': b'running develop\n'}
+[4.220666] (temperature_monitoring_system) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.221187] (temperature_monitoring_system) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.257233] (-) TimerEvent: {}
+[4.358729] (-) TimerEvent: {}
+[4.460132] (-) TimerEvent: {}
+[4.561763] (-) TimerEvent: {}
+[4.662699] (-) TimerEvent: {}
+[4.764088] (-) TimerEvent: {}
+[4.865034] (-) TimerEvent: {}
+[4.966614] (-) TimerEvent: {}
+[4.973700] (temperature_monitoring_system) StdoutLine: {'line': b'Removing /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature-monitoring-system.egg-link (link to .)\n'}
+[5.067084] (-) TimerEvent: {}
+[5.071465] (temperature_monitoring_system) CommandEnded: {'returncode': 0}
+[5.077787] (temperature_monitoring_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/temperature_monitoring_system', 'build', '--build-base', '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build', 'install', '--record', '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/anthony/Desktop/Assignment6/src/temperature_monitoring_system', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'anthony', 'LC_TIME': 'ar_LB.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anthony', 'OLDPWD': '/home/anthony/Desktop/Assignment6/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_LB.UTF-8', 'SYSTEMD_EXEC_PID': '3155', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anthony/Desktop/Assignment6/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anthony', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anthony', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anthony-virtual-machine:@/tmp/.ICE-unix/2881,unix/anthony-virtual-machine:/tmp/.ICE-unix/2881', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_LB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5f36e1de_8c02_4321_bfe0_00bf05a85a03', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_LB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1FP8Q2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_LB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_LB.UTF-8', 'LC_IDENTIFICATION': 'ar_LB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages:/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system:/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_LB.UTF-8', 'LC_PAPER': 'ar_LB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.167321] (-) TimerEvent: {}
+[5.268478] (-) TimerEvent: {}
+[5.369964] (-) TimerEvent: {}
+[5.471438] (-) TimerEvent: {}
+[5.572386] (-) TimerEvent: {}
+[5.673799] (-) TimerEvent: {}
+[5.775396] (-) TimerEvent: {}
+[5.876768] (-) TimerEvent: {}
+[5.978159] (-) TimerEvent: {}
+[6.079693] (-) TimerEvent: {}
+[6.180552] (-) TimerEvent: {}
+[6.282069] (-) TimerEvent: {}
+[6.288727] (temperature_monitoring_system) StdoutLine: {'line': b'running egg_info\n'}
+[6.292383] (temperature_monitoring_system) StdoutLine: {'line': b'writing ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/PKG-INFO\n'}
+[6.293736] (temperature_monitoring_system) StdoutLine: {'line': b'writing dependency_links to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/dependency_links.txt\n'}
+[6.295019] (temperature_monitoring_system) StdoutLine: {'line': b'writing entry points to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/entry_points.txt\n'}
+[6.296155] (temperature_monitoring_system) StdoutLine: {'line': b'writing requirements to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/requires.txt\n'}
+[6.298272] (temperature_monitoring_system) StdoutLine: {'line': b'writing top-level names to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/top_level.txt\n'}
+[6.304505] (temperature_monitoring_system) StdoutLine: {'line': b"reading manifest file '../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/SOURCES.txt'\n"}
+[6.310131] (temperature_monitoring_system) StdoutLine: {'line': b"writing manifest file '../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/SOURCES.txt'\n"}
+[6.311497] (temperature_monitoring_system) StdoutLine: {'line': b'running build\n'}
+[6.312815] (temperature_monitoring_system) StdoutLine: {'line': b'running build_py\n'}
+[6.314487] (temperature_monitoring_system) StdoutLine: {'line': b'copying temperature_monitoring_system/alert_node.py -> /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system\n'}
+[6.315391] (temperature_monitoring_system) StdoutLine: {'line': b'copying temperature_monitoring_system/threshold_node.py -> /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system\n'}
+[6.316210] (temperature_monitoring_system) StdoutLine: {'line': b'copying temperature_monitoring_system/temp_sensor_node.py -> /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system\n'}
+[6.316743] (temperature_monitoring_system) StdoutLine: {'line': b'running install\n'}
+[6.317259] (temperature_monitoring_system) StdoutLine: {'line': b'running install_lib\n'}
+[6.319169] (temperature_monitoring_system) StdoutLine: {'line': b'creating /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system\n'}
+[6.319942] (temperature_monitoring_system) StdoutLine: {'line': b'copying /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system/alert_node.py -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system\n'}
+[6.320604] (temperature_monitoring_system) StdoutLine: {'line': b'copying /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system/threshold_node.py -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system\n'}
+[6.320999] (temperature_monitoring_system) StdoutLine: {'line': b'copying /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system/temp_sensor_node.py -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system\n'}
+[6.327523] (temperature_monitoring_system) StdoutLine: {'line': b'copying /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system/__init__.py -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system\n'}
+[6.330187] (temperature_monitoring_system) StdoutLine: {'line': b'byte-compiling /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system/alert_node.py to alert_node.cpython-310.pyc\n'}
+[6.332181] (temperature_monitoring_system) StdoutLine: {'line': b'byte-compiling /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system/threshold_node.py to threshold_node.cpython-310.pyc\n'}
+[6.334053] (temperature_monitoring_system) StdoutLine: {'line': b'byte-compiling /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system/temp_sensor_node.py to temp_sensor_node.cpython-310.pyc\n'}
+[6.336184] (temperature_monitoring_system) StdoutLine: {'line': b'byte-compiling /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system/__init__.py to __init__.cpython-310.pyc\n'}
+[6.337166] (temperature_monitoring_system) StdoutLine: {'line': b'running install_data\n'}
+[6.337858] (temperature_monitoring_system) StdoutLine: {'line': b'copying resource/temperature_monitoring_system -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/share/ament_index/resource_index/packages\n'}
+[6.338525] (temperature_monitoring_system) StdoutLine: {'line': b'copying package.xml -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/share/temperature_monitoring_system\n'}
+[6.339143] (temperature_monitoring_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.347866] (temperature_monitoring_system) StdoutLine: {'line': b'Copying ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system-0.0.0-py3.10.egg-info\n'}
+[6.352639] (temperature_monitoring_system) StdoutLine: {'line': b'running install_scripts\n'}
+[6.382636] (-) TimerEvent: {}
+[6.455536] (temperature_monitoring_system) StdoutLine: {'line': b'Installing alert_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system\n'}
+[6.457060] (temperature_monitoring_system) StdoutLine: {'line': b'Installing temp_sensor_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system\n'}
+[6.458313] (temperature_monitoring_system) StdoutLine: {'line': b'Installing threshold_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system\n'}
+[6.460647] (temperature_monitoring_system) StdoutLine: {'line': b"writing list of installed files to '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/install.log'\n"}
+[6.483029] (-) TimerEvent: {}
+[6.535809] (temperature_monitoring_system) CommandEnded: {'returncode': 0}
+[6.583341] (-) TimerEvent: {}
+[6.585327] (temperature_monitoring_system) JobEnded: {'identifier': 'temperature_monitoring_system', 'rc': 0}
+[6.589721] (-) EventReactorShutdown: {}

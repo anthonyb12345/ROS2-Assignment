@@ -1,0 +1,42 @@
+[3.056s] Invoking command in '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system': PYTHONPATH=/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build
+[4.214s] running develop
+[4.216s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.216s]   warnings.warn(
+[4.969s] Removing /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature-monitoring-system.egg-link (link to .)
+[5.068s] Invoked command in '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system' returned '0': PYTHONPATH=/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build
+[5.075s] Invoking command in '/home/anthony/Desktop/Assignment6/src/temperature_monitoring_system': PYTHONPATH=/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/temperature_monitoring_system build --build-base /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build install --record /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/install.log --single-version-externally-managed install_data --force
+[6.284s] running egg_info
+[6.288s] writing ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/PKG-INFO
+[6.289s] writing dependency_links to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/dependency_links.txt
+[6.290s] writing entry points to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/entry_points.txt
+[6.291s] writing requirements to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/requires.txt
+[6.293s] writing top-level names to ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/top_level.txt
+[6.300s] reading manifest file '../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/SOURCES.txt'
+[6.305s] writing manifest file '../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info/SOURCES.txt'
+[6.307s] running build
+[6.308s] running build_py
+[6.310s] copying temperature_monitoring_system/alert_node.py -> /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system
+[6.310s] copying temperature_monitoring_system/threshold_node.py -> /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system
+[6.311s] copying temperature_monitoring_system/temp_sensor_node.py -> /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system
+[6.312s] running install
+[6.312s] running install_lib
+[6.315s] creating /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system
+[6.315s] copying /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system/alert_node.py -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system
+[6.316s] copying /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system/threshold_node.py -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system
+[6.316s] copying /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system/temp_sensor_node.py -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system
+[6.323s] copying /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build/lib/temperature_monitoring_system/__init__.py -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system
+[6.325s] byte-compiling /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system/alert_node.py to alert_node.cpython-310.pyc
+[6.327s] byte-compiling /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system/threshold_node.py to threshold_node.cpython-310.pyc
+[6.329s] byte-compiling /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system/temp_sensor_node.py to temp_sensor_node.cpython-310.pyc
+[6.331s] byte-compiling /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system/__init__.py to __init__.cpython-310.pyc
+[6.332s] running install_data
+[6.333s] copying resource/temperature_monitoring_system -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/share/ament_index/resource_index/packages
+[6.334s] copying package.xml -> /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/share/temperature_monitoring_system
+[6.334s] running install_egg_info
+[6.343s] Copying ../../build/temperature_monitoring_system/temperature_monitoring_system.egg-info to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages/temperature_monitoring_system-0.0.0-py3.10.egg-info
+[6.348s] running install_scripts
+[6.451s] Installing alert_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system
+[6.452s] Installing temp_sensor_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system
+[6.453s] Installing threshold_node script to /home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/temperature_monitoring_system
+[6.456s] writing list of installed files to '/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/install.log'
+[6.532s] Invoked command in '/home/anthony/Desktop/Assignment6/src/temperature_monitoring_system' returned '0': PYTHONPATH=/home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthony/Desktop/Assignment6/install/temperature_monitoring_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/temperature_monitoring_system build --build-base /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/build install --record /home/anthony/Desktop/Assignment6/build/temperature_monitoring_system/install.log --single-version-externally-managed install_data --force
