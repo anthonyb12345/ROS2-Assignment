@@ -1,0 +1,6 @@
+source;share/temperature_monitoring_system/hook/pythonpath.ps1
+source;share/temperature_monitoring_system/hook/pythonpath.dsv
+source;share/temperature_monitoring_system/hook/pythonpath.sh
+source;share/temperature_monitoring_system/hook/ament_prefix_path.ps1
+source;share/temperature_monitoring_system/hook/ament_prefix_path.dsv
+source;share/temperature_monitoring_system/hook/ament_prefix_path.sh
